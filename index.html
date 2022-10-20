@@ -22,6 +22,34 @@
 
     -->
 	<p>Hello World</p>
+	
+<head>
+    <style>
+          <link rel="stylesheet" href="styles.css">
+
+    </style>
+</head>
+
+<h1 id="title">This our title</h1>
+<p id="description">This is short description</p>
+<form id="survey-form">
+  <label for="name" id="name-label">name</label>
+    <input id ="name" type="text"name="name" value="name" placeholder="dennis" required>
+  <label for="email" id="email-label">email</label>
+    <input id="email" type="email" name="email" placeholder="example@gmail.com" value="email"required>
+  <label for="number" id="number-label">number</label>
+  <input id="number" type='number' name="number" value="number" placeholder="1334" min="1" max="25">
+  <select id="dropdown">
+      <option value="1">take</option>
+      <option value="2">leave</option>
+  </select>
+  <input type="radio" value="first" name="radio">
+  <input type="radio value ="second" name="radio"
+  <input type="checkbox" value="name">
+  <input type="checkbox" value="type">
+  <textarea>This is a textarea</textarea>
+  <input type="submit" id="submit" method="post">  
+</form>
     <script  src="js/index.js"></script>
   </body>
 </html>
